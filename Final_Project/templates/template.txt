@@ -1,6 +1,0 @@
-Hey {{name}}
-Welcome to APP.
-To activate your account on APP, click the following URL:
-{{ url_for('confirm', token=token, _external=True) }}
-
-This URL expires in 1 hour.

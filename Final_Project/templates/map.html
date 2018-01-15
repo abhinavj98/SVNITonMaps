@@ -1,9 +1,0 @@
-{% extends "base.html" %} {% block content %}
-<!-- https://developers.google.com/maps/documentation/javascript/ -->
-<script src="https://maps.googleapis.com/maps/api/js?key={{ key | urlencode }}&v=3.exp"></script>
-<script src="{{ url_for('static', filename='mapscripts.js') }}"></script>
-
-{% endblock %} {% block main %} TODO: Map, Markers, Show articles
-<!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
-<div id="map-canvas"></div>
-{% endblock %}
