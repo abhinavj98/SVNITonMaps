@@ -1,0 +1,10 @@
+flask
+flask-bootstrap
+flask-mail
+flask-wtf
+sqlalchemy
+flask-login
+Werkzeug
+itsdangerous
+flask-script
+flask-session
